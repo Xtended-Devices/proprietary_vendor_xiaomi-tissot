@@ -47,6 +47,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/librcc.so:system/lib/librcc.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/android.hardware.camera.common@1.0.so:system/lib/android.hardware.camera.common@1.0.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/android.hardware.camera.device@1.0.so:system/lib/android.hardware.camera.device@1.0.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/android.hardware.camera.device@3.2.so:system/lib/android.hardware.camera.device@3.2.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/android.hardware.camera.device@3.3.so:system/lib/android.hardware.camera.device@3.3.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/android.hardware.camera.device@3.4.so:system/lib/android.hardware.camera.device@3.4.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/android.hardware.camera.provider@2.4.so:system/lib/android.hardware.camera.provider@2.4.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
@@ -67,6 +79,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/android.hardware.camera.common@1.0.so:system/lib64/android.hardware.camera.common@1.0.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/android.hardware.camera.device@1.0.so:system/lib64/android.hardware.camera.device@1.0.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/android.hardware.camera.device@3.2.so:system/lib64/android.hardware.camera.device@3.2.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/android.hardware.camera.device@3.3.so:system/lib64/android.hardware.camera.device@3.3.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/android.hardware.camera.device@3.4.so:system/lib64/android.hardware.camera.device@3.4.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/android.hardware.camera.provider@2.4.so:system/lib64/android.hardware.camera.provider@2.4.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/libcamera2ndk.so:system/lib64/libcamera2ndk.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/libcamera_metadata.so:system/lib64/libcamera_metadata.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/android.hardware.biometrics.fingerprint@2.1.so:system/lib64/android.hardware.biometrics.fingerprint@2.1.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
@@ -90,6 +114,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
@@ -141,6 +167,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/xiaomi/msm8953-common/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/xiaomi/msm8953-common/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service.rc \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/xiaomi/msm8953-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/xiaomi/msm8953-common/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/msm8953-common/proprietary/vendor/firmware/a506_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b00 \
@@ -478,6 +510,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
